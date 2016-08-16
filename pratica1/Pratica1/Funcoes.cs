@@ -16,21 +16,21 @@ namespace Pratica1
          * 3 - Triangulos
          * 4 - Retangulos
          * */
-        public List<FormaGeometrica> filtrar(List<FormaGeometrica> formas, int tipo)
+        public List<FormaGeometrica> filtrar(List<FormaGeometrica> formas, Type tipo)
         {
-            List<FormaGeometrica> encontrados = new List<FormaGeometrica>();
-            foreach(FormaGeometrica forma in formas)
+            return formas.FindAll(forma => forma.GetType().Equals(tipo));
+            List<int> l = new List<int>();
+            l.Add(1);
+            l.Add(2);
+            l.Add(3);
+            l.Add(4);
+            l.Add(5);
+            l.Add(6);
+            foreach(int dobro in l.Select(i => i * 2))
             {
-                if(tipo == 1 && forma is Ponto)
-                {
-                    encontrados.Add(forma);
-                }else if(tipo == 2 && forma is Linha)
-                {
-                    encontrados.Add(forma);
-                }
+                Console.WriteLine(dobro);
             }
 
-            return encontrados;
         }
 
         public void mostraMenu()
@@ -53,14 +53,14 @@ namespace Pratica1
 
             Linha linha = new Linha();
 
-            Ponto origem = new Ponto();
-            origem.coordenada = 1;
+            Ponto x = new Ponto();
+            x.coordenada = 1;
           
-            Ponto destino = new Ponto();
-            destino.coordenada = 2;
+            Ponto y = new Ponto();
+            y.coordenada = 2;
 
-            linha.origem = origem;
-            linha.destino = destino;
+            linha.origem = x;
+            linha.destino = y;
 
             formas.Add(linha);
 
@@ -77,10 +77,12 @@ namespace Pratica1
         }
 
         public void imprimeLista(List<FormaGeometrica> formas) {
-            foreach(FormaGeometrica forma in formas)
+            
+            foreach (FormaGeometrica forma in formas)
             {
                 Console.WriteLine(forma);
             }
+                        
         }
     }
 }
