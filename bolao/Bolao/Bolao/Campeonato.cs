@@ -23,6 +23,19 @@ namespace Bolao
 		{
 		}
 
+		public int pontos(Time time){
+			int somaDePontos = 0;
+			foreach (Turno t in turnos.Values) {
+				foreach (Rodada r in t.rodadas) {
+					foreach (Jogo j in r.jogos) {
+						somaDePontos += j.pontos (time);
+					}
+				}
+			}
+			return somaDePontos;
+			
+		}
+
 		public void mostrarJogosDaRodada(int numero){
 			Rodada r = rodadas [numero];
 			foreach (Jogo jogo in r.jogos) {
@@ -47,6 +60,7 @@ namespace Bolao
 				t = new Turno ();
 				t.numero = turno;
 				t.campeonato = this;
+				t.rodadas = new List<Rodada> ();
 
 				turnos.Add (turno, t);
 			} else {
@@ -60,6 +74,7 @@ namespace Bolao
 				r = new Rodada ();
 				r.numero = rodada;
 				r.turno = t;
+				t.rodadas.Add (r);
 				rodadas.Add (rodada, r);
 			} else {
 				r = rodadas [rodada];
@@ -95,7 +110,6 @@ namespace Bolao
 
 			r.jogos.Add (j);
 
-			Console.WriteLine ("Registrando jogo:" + j.ToString ());
 		}
 	}
 }

@@ -3,3 +3,8 @@
 /Users/rodrigosol/Projects/Bolao/Bolao/bin/Debug/Bolao.exe
 /Users/rodrigosol/Projects/Bolao/Bolao/obj/x86/Debug/Bolao.exe
 /Users/rodrigosol/Projects/Bolao/Bolao/obj/x86/Debug/Bolao.exe.mdb
+/Users/rodrigosol/puc/poo/labpoo_2_2016/bolao/Bolao/Bolao/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/rodrigosol/puc/poo/labpoo_2_2016/bolao/Bolao/Bolao/bin/Debug/Bolao.exe.mdb
+/Users/rodrigosol/puc/poo/labpoo_2_2016/bolao/Bolao/Bolao/bin/Debug/Bolao.exe
+/Users/rodrigosol/puc/poo/labpoo_2_2016/bolao/Bolao/Bolao/obj/x86/Debug/Bolao.exe
+/Users/rodrigosol/puc/poo/labpoo_2_2016/bolao/Bolao/Bolao/obj/x86/Debug/Bolao.exe.mdb

@@ -12,6 +12,11 @@ namespace Bolao
 		public Turno ()
 		{
 		}
+
+		public override string ToString ()
+		{
+			return "Turno " + this.numero;
+		}
 	}
 }
 

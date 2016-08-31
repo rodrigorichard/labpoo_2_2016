@@ -20,6 +20,25 @@ namespace Bolao
 		{
 			return mandante.nome + " x " + visitante.nome + " --> " + golsMandante + ":" + golsVisitante;
 		}
+
+		public int pontos(Time time){
+			int ponto = 0;
+			if (time.Equals (mandante)) {
+				if (golsMandante > golsVisitante) {
+					ponto = 3;
+				}else if(golsMandante == golsVisitante){
+					ponto = 1;
+				}
+			} else if (time.Equals (visitante)) {
+				if (golsVisitante > golsMandante) {
+					ponto = 3;
+				}else if(golsVisitante == golsMandante){
+					ponto = 1;
+				}
+			}
+
+			return ponto;
+		}
 	}
 }
 

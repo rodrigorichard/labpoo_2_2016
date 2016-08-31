@@ -14,6 +14,11 @@ namespace Bolao
 		{
 			jogos = new List<Jogo> ();
 		}
+
+		public override string ToString ()
+		{
+			return "Rodada " + this.numero;
+		}
 	}
 }
 
