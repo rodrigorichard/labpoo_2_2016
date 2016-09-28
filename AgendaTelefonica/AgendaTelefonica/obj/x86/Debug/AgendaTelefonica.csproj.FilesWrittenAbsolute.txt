@@ -1,0 +1,5 @@
+/Users/rodrigosol/Projects/AgendaTelefonica/AgendaTelefonica/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/rodrigosol/Projects/AgendaTelefonica/AgendaTelefonica/bin/Debug/AgendaTelefonica.exe.mdb
+/Users/rodrigosol/Projects/AgendaTelefonica/AgendaTelefonica/bin/Debug/AgendaTelefonica.exe
+/Users/rodrigosol/Projects/AgendaTelefonica/AgendaTelefonica/obj/x86/Debug/AgendaTelefonica.exe
+/Users/rodrigosol/Projects/AgendaTelefonica/AgendaTelefonica/obj/x86/Debug/AgendaTelefonica.exe.mdb

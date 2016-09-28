@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="CalculadoraSemIf/CalculadoraSemIf.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalculadoraSemIf/Operacao.cs">
+    <Files>
+      <File FileName="CalculadoraSemIf/Numero.cs" Line="13" Column="13" />
+      <File FileName="CalculadoraSemIf/Um.cs" Line="13" Column="13" />
+      <File FileName="CalculadoraSemIf/Dois.cs" Line="27" Column="27" />
+      <File FileName="CalculadoraSemIf/Tres.cs" Line="13" Column="13" />
+      <File FileName="CalculadoraSemIf/Quatro.cs" Line="13" Column="13" />
+      <File FileName="CalculadoraSemIf/Cinco.cs" Line="1" Column="1" />
+      <File FileName="CalculadoraSemIf/Operacao.cs" Line="2" Column="2" />
+      <File FileName="CalculadoraSemIf/Soma.cs" Line="1" Column="1" />
+      <File FileName="CalculadoraSemIf/Vezes.cs" Line="18" Column="18" />
+      <File FileName="CalculadoraSemIf/Hello.cs" Line="30" Column="30" />
+      <File FileName="CalculadoraSemIf/Portugues.cs" Line="17" Column="17" />
+      <File FileName="CalculadoraSemIf/Frances.cs" Line="4" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,13 +1,12 @@
 ﻿<Properties StartupItem="Bolao/Bolao.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bolao/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bolao/Aposta.cs">
     <Files>
-      <File FileName="Bolao/Program.cs" Line="36" Column="36" />
-      <File FileName="Bolao/Campeonato.cs" Line="10" Column="10" />
-      <File FileName="Bolao/Time.cs" Line="10" Column="10" />
-      <File FileName="Bolao/Turno.cs" Line="10" Column="10" />
-      <File FileName="Bolao/Jogo.cs" Line="10" Column="10" />
-      <File FileName="Bolao/Rodada.cs" Line="10" Column="10" />
+      <File FileName="Bolao/Program.cs" Line="29" Column="29" />
+      <File FileName="Bolao/Time.cs" Line="1" Column="1" />
+      <File FileName="Bolao/Turno.cs" Line="1" Column="1" />
+      <File FileName="Bolao/Jogo.cs" Line="1" Column="1" />
+      <File FileName="Bolao/Rodada.cs" Line="1" Column="1" />
       <File FileName="Bolao/Aposta.cs" Line="1" Column="1" />
       <File FileName="Bolao/Participante.cs" Line="1" Column="1" />
       <File FileName="Bolao/Cartao.cs" Line="1" Column="1" />
