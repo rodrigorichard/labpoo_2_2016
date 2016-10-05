@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cep", "Cep\Cep.csproj", "{E0A3A602-3EBF-4E7F-85A4-4AD284506958}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CAD2AAF-24EB-413C-B020-7B670CD2E93C}"
+	ProjectSection(SolutionItems) = preProject
+		estados.csv = estados.csv
+		enderecos.csv = enderecos.csv
+		cidades.csv = cidades.csv
+		bairros.csv = bairros.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0A3A602-3EBF-4E7F-85A4-4AD284506958}.Debug|x86.ActiveCfg = Debug|x86
+		{E0A3A602-3EBF-4E7F-85A4-4AD284506958}.Debug|x86.Build.0 = Debug|x86
+		{E0A3A602-3EBF-4E7F-85A4-4AD284506958}.Release|x86.ActiveCfg = Release|x86
+		{E0A3A602-3EBF-4E7F-85A4-4AD284506958}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
