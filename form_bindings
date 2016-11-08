@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication1
+{
+    public partial class Form1 : Form
+    {
+        private Repositorio repositorio = new Repositorio();
+        public Form1()
+        {
+            InitializeComponent();
+            comboEstados.DataSource = repositorio.getEstados();
+            comboEstados.DisplayMember = "sigla";
+
+            comboCidades.DataSource = repositorio.getCidades();
+            comboCidades.DisplayMember = "nome";
+
+            dataGrid.DataSource = repositorio.getCidades();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboEstados_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine(comboEstados.SelectedItem.ToString());
+            repositorio.populaCidadesDoEstadoAtual((Estado)comboEstados.SelectedItem);
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            repositorio.addNovaCidadeNoRio(txtNovaCidade.Text);
+        }
+    }
+}
