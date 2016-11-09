@@ -6,8 +6,10 @@ namespace Cep
 	{
 		public static void Main (string[] args)
 		{
+
 			Dictionary<String,Dictionary<string,Object>> colecoes = 
 				new Dictionary<string, Dictionary<string, object>> ();
+
 
 			Parser estadoParser = new EstadosParser (null);
 			colecoes.Add("estados",estadoParser.ler ("/Users/rodrigosol/puc/poo/labpoo_2_2016/Cep/estados.csv"));

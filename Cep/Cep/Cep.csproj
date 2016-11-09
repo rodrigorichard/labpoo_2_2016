@@ -43,6 +43,7 @@
     <Compile Include="Parser.cs" />
     <Compile Include="CidadeParser.cs" />
     <Compile Include="BairrosParser.cs" />
+    <Compile Include="EnderecosParser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,1 +1,23 @@
-﻿<Properties StartupItem="Cep/Cep.csproj" />
+﻿<Properties StartupItem="Cep/Cep.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cep/Program.cs">
+    <Files>
+      <File FileName="Cep/EstadosParser.cs" Line="1" Column="1" />
+      <File FileName="estados.csv" Line="1" Column="1" />
+      <File FileName="Cep/Program.cs" Line="38" Column="38" />
+      <File FileName="Cep/Estado.cs" Line="1" Column="1" />
+      <File FileName="Cep/Parser.cs" Line="7" Column="7" />
+      <File FileName="Cep/CidadeParser.cs" Line="1" Column="1" />
+      <File FileName="cidades.csv" Line="1" Column="1" />
+      <File FileName="Cep/Cidade.cs" Line="1" Column="1" />
+      <File FileName="Cep/Bairro.cs" Line="1" Column="1" />
+      <File FileName="Cep/BairrosParser.cs" Line="51" Column="51" />
+      <File FileName="bairros.csv" Line="1" Column="1" />
+      <File FileName="Cep/EnderecosParser.cs" Line="39" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

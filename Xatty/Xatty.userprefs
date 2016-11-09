@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Xatty/Xatty.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xatty/IXatty.cs">
+    <Files>
+      <File FileName="Xatty/IUser.cs" Line="1" Column="1" />
+      <File FileName="Xatty/IMessage.cs" Line="1" Column="1" />
+      <File FileName="Xatty/IXatty.cs" Line="2" Column="2" />
+      <File FileName="Xatty/JsonParser.cs" Line="42" Column="42" />
+      <File FileName="Xatty/Usuario.cs" Line="47" Column="47" />
+      <File FileName="Xatty/Program.cs" Line="50" Column="50" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
