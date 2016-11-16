@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{56333AA6-E30A-45F0-A16B-88CA8CD48C8E}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Xatty</RootNamespace>
-    <AssemblyName>Xatty</AssemblyName>
+    <ProjectGuid>{36C5A1F1-0565-4C4E-865F-0EEB66501566}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>XattyClient</RootNamespace>
+    <AssemblyName>XattyClient</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -31,25 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="M2Mqtt.Net">
-      <HintPath>..\packages\M2Mqtt.4.3.0.0\lib\net45\M2Mqtt.Net.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IMessage.cs" />
-    <Compile Include="IUser.cs" />
-    <Compile Include="JsonParser.cs" />
-    <Compile Include="Usuario.cs" />
-    <Compile Include="Message.cs" />
-    <Compile Include="Conn.cs" />
-    <Compile Include="XattyCallback.cs" />
+    <Compile Include="Chat.cs" />
+    <Compile Include="ChatUser.cs" />
+    <Compile Include="ChatMsg.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\Xatty\Xatty.csproj">
+      <Project>{56333AA6-E30A-45F0-A16B-88CA8CD48C8E}</Project>
+      <Name>Xatty</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

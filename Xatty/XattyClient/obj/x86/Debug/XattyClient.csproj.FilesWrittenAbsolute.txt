@@ -1,0 +1,10 @@
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/bin/Debug/XattyClient.exe.mdb
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/bin/Debug/XattyClient.exe
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/obj/x86/Debug/XattyClient.exe
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/obj/x86/Debug/XattyClient.exe.mdb
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/bin/Debug/Xatty.dll
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/bin/Debug/Xatty.exe.mdb
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/bin/Debug/Xatty.dll.mdb
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/bin/Debug/M2Mqtt.Net.dll
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/XattyClient/bin/Debug/Newtonsoft.Json.dll

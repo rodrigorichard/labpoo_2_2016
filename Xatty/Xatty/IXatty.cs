@@ -3,12 +3,6 @@ using System.Collections.Generic;
 
 namespace Xatty
 {
-	public interface IXattyCallback
-	{
-		void userOnline(IUser user);
-		void userOffline(IUser user);
-		void receive (IMessage message);
-	}
 
 	public class Xatty{
 

@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xatty", "Xatty\Xatty.csproj", "{56333AA6-E30A-45F0-A16B-88CA8CD48C8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XattyClient", "XattyClient\XattyClient.csproj", "{36C5A1F1-0565-4C4E-865F-0EEB66501566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C5A1F1-0565-4C4E-865F-0EEB66501566}.Debug|x86.ActiveCfg = Debug|x86
+		{36C5A1F1-0565-4C4E-865F-0EEB66501566}.Debug|x86.Build.0 = Debug|x86
+		{36C5A1F1-0565-4C4E-865F-0EEB66501566}.Release|x86.ActiveCfg = Release|x86
+		{36C5A1F1-0565-4C4E-865F-0EEB66501566}.Release|x86.Build.0 = Release|x86
 		{56333AA6-E30A-45F0-A16B-88CA8CD48C8E}.Debug|x86.ActiveCfg = Debug|x86
 		{56333AA6-E30A-45F0-A16B-88CA8CD48C8E}.Debug|x86.Build.0 = Debug|x86
 		{56333AA6-E30A-45F0-A16B-88CA8CD48C8E}.Release|x86.ActiveCfg = Release|x86

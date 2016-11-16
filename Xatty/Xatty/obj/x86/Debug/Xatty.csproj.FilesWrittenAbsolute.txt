@@ -5,3 +5,7 @@
 /Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/Xatty/obj/x86/Debug/Xatty.exe.mdb
 /Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/Xatty/bin/Debug/Newtonsoft.Json.dll
 /Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/Xatty/bin/Debug/M2Mqtt.Net.dll
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/Xatty/bin/Debug/Xatty.dll.mdb
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/Xatty/bin/Debug/Xatty.dll
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/Xatty/obj/x86/Debug/Xatty.dll
+/Users/rodrigosol/puc/poo/labpoo_2_2016/Xatty/Xatty/obj/x86/Debug/Xatty.dll.mdb
