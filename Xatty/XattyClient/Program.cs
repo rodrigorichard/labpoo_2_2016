@@ -4,14 +4,18 @@ namespace XattyClient
 {
 	class MainClass
 	{
+
 		public static void Main (string[] args)
 		{
-			Chat trump = new Chat ("Donald Trump");
-			Chat pato = new Chat ("Pato Donald");
-			Console.ReadKey ();
-			trump.send ("Ola", (ChatUser)trump.getFirstUser ());
-			Console.ReadKey ();
 
+			int a = 10;
+			a = x (a);
+			Console.WriteLine (a);
+		}
+
+		public static int x(int a){
+
+			return a + 1;
 		}
 	}
 }

@@ -1,0 +1,1 @@
+json.array! @circulos, partial: 'circulos/circulo', as: :circulo

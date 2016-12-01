@@ -1,0 +1,1 @@
+json.partial! "circulos/circulo", circulo: @circulo

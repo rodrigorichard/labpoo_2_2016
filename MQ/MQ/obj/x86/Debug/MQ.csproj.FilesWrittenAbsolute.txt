@@ -1,0 +1,5 @@
+/Users/rodrigosol/Projects/MQ/MQ/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/rodrigosol/Projects/MQ/MQ/bin/Debug/MQ.exe.mdb
+/Users/rodrigosol/Projects/MQ/MQ/bin/Debug/MQ.exe
+/Users/rodrigosol/Projects/MQ/MQ/obj/x86/Debug/MQ.exe
+/Users/rodrigosol/Projects/MQ/MQ/obj/x86/Debug/MQ.exe.mdb
